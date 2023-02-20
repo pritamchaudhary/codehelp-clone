@@ -6,6 +6,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Codehelp Clone</title>
     <link rel="stylesheet" href="main.css">
+    <style>
+        .circle{
+            border: 2px solid #f1e4ff;
+            width: 384px;
+            height: 384px;
+            border-radius: 50%;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: outer_circle 20s linear infinite;
+        }
+        @keyframes outer_circle {
+            0%{
+                transform: rotate(0);
+            }
+            100%{
+                transform: rotate(360deg);
+            }
+        }
+        .bg {
+            animation: imgs 20s linear infinite;
+        }
+
+        @keyframes imgs {
+
+            0% {
+                transform: rotate(360deg);
+            }
+
+        }
+        .circle1{
+            height: 288px;
+            width: 288px;
+            border-radius: 50%;
+            border: 2px solid #f1e4ff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #f1e4ff;
+        }
+        .circle2{
+            height: 160px;
+            width: 160px;
+            border: 2px solid white;
+            border-radius: 50%;
+            position: relative;
+            animation: inner_circle 15s linear infinite;
+            background-color: white;
+        }
+        @keyframes inner_circle {
+            0% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .sm {
+            animation: imgs 20s linear infinite;
+        }
+
+        @keyframes imgs {
+
+            100% {
+                transform: rotate(360deg);
+            }
+
+        }
+        
+        .images{
+            width: 120px;
+            height: 120px;
+        }
+        .img5{
+            position: absolute;
+            top: -40px;
+            left: 45px;
+        }
+        .img6{
+            position: absolute;
+            top: 120px;
+            left: -60px;
+        }
+        .img7{
+            position: absolute;
+            bottom: 0px;
+            left: 0;
+        }
+        .img8{
+            position: absolute;
+            bottom: 70px;
+            right: -50px;
+        }
+        .img9{
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .img10{
+            position: absolute;
+            bottom: -60px;
+            left: 160px;
+        }
+        .img1{
+            position: absolute;
+            top: -25px;
+            left: -50px;
+        }
+        .img2{
+            position: absolute;
+            top: -35px;
+            right: -40px;
+        }
+        .img3{
+            position: absolute;
+            bottom: -35px;
+            left: -40px;
+        }
+        .img4{
+            position: absolute;
+            bottom: -25px;
+            right: -50px;
+        }
+    </style>
 </head>
 <body>
     <div class="max-h-[100vh] overflow-x-hidden">
@@ -96,6 +219,244 @@
                         <h1 class="text-white text-[48px] leading-[48px] font-bold mb-3">260K+</h1>
                         <p class="text-white text-[16px] leading-[24px] font-bold">Followers</p>
                         <a href="#" class="underline text-white font-bold text-[16px] leading-[24px]">on Linkedin</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#f7f8fc]">
+            <div class="relative pt-10">
+                <div class="flex flex-col max-w-[1300px] justify-center items-center mx-auto">
+                    <div class="flex flex-col max-w-[576px] h-[266px] justify-center items-center">
+                        <h1 class="text-[#6674cc] text-[20px] leading-[24px] font-bold ">WHY CODE-HELP?</h1>
+                        <P class="text-[42px] leading-[63px] font-bold">Making learning easier and more convenient for you.</P>
+                    </div>
+                </div>
+                <div class="absolute top-10 left-0">
+                    <img src="./assets/bkzxjg9fxeaiuej76vdd_9e7b388222.png" alt="">
+                </div>
+            </div>
+
+            <div class="max-w-[1300px] mx-auto grid grid-cols-3 gap-5 pt-5 pb-16">
+                <div class="flex flex-col gap-5 items-center justify-center bg-white p-16 mb-10 h-[343px] rounded-md border-b-[6px] shadow-md z-20" style="border-bottom-color: rgba(1, 162, 142, 0.39);">
+                    <div>
+                        <img src="./assets/asset 38.svg" class="bg-[#01a28e] rounded-[50%] p-4"  alt="">
+                    </div>
+                    <h1 class="text-[18px] leading-[28px] font-bold">Data Structure</h1>
+                    <p class="text-[17px] leading-[24px] font-semibold text-center text-gray-400">Data structures are the problem-solving pillars of coding. Learn all the foundational knowledge about all of the popular data structure that you need, to be well-versed in interviews.</p>
+                </div>
+                <div class="flex flex-col gap-5 items-center justify-center bg-white p-16 mb-10 h-[343px] rounded-md border-b-[6px]  shadow-md z-20" style="border-bottom-color: rgba(229, 48, 62, 0.39);">
+                    <div>
+                        <img src="./assets/asset 39.svg" class="bg-[#F5AFB4] rounded-[50%] p-4"  alt="">
+                    </div>
+                    <h1 class="text-[18px] leading-[28px] font-bold">Placement Preparation</h1>
+                    <p class="text-[17px] leading-[24px] font-semibold text-center text-gray-400">Ace the placement interviews by being knowledgeable in all well-known data structures, popular problem-solving methods, and core computer sciences.</p>
+                </div>
+                <div class="flex flex-col gap-5 items-center justify-center bg-white p-16 mb-10 h-[343px] rounded-md border-b-[6px]  shadow-md z-20" style="border-bottom-color: rgba(55, 19, 253, 0.39);">
+                    <div>
+                        <img src="./assets/asset 40.svg" class="bg-[#B1A3FE] rounded-[50%] p-4"  alt="">
+                    </div>
+                    <h1 class="text-[18px] leading-[28px] font-bold">Hand Picked Question</h1>
+                    <p class="text-[17px] leading-[24px] font-semibold text-center text-gray-400">Get access to hand-picked coding interview questions across categories & difficulty levels that will prepare you for every interview you would encounter.</p>
+                </div>
+                <div class="flex flex-col gap-5 items-center justify-center bg-white p-16 h-[343px] rounded-md border-b-[6px] shadow-md z-20" style="border-bottom-color: rgba(19, 120, 175, 0.39);">
+                    <div>
+                        <img src="./assets/asset 41.svg" class="bg-[#A3CBE0] rounded-[50%] p-4"  alt="">
+                    </div>
+                    <h1 class="text-[18px] leading-[28px] font-bold">Curated Content</h1>
+                    <p class="text-[17px] leading-[24px] font-semibold text-center text-gray-400">Learn in-depth conceptual overviews, how to approach an algorithm, how to implement it & how to optimize it.</p>
+                </div>
+                <div class="flex flex-col gap-5 items-center justify-center bg-white p-16 h-[343px] rounded-md border-b-[6px] shadow-md z-20" style="border-bottom-color: rgba(26, 158, 253, 0.39);">
+                    <div>
+                        <img src="./assets/asset 42.svg" class="bg-[#A6D9FE] rounded-[50%] p-4"  alt="">
+                    </div>
+                    <h1 class="text-[18px] leading-[28px] font-bold">Learn from the best</h1>
+                    <p class="text-[17px] leading-[24px] font-semibold text-center text-gray-400">Get access to lectures and get mentored by one of the best in the market, Love Babbar.</p>
+                </div>
+                <div class="flex flex-col gap-5 items-center justify-center bg-white p-16 h-[343px] rounded-md border-b-[6px] shadow-md z-20" style="border-bottom-color: rgba(249, 113, 21, 0.39);">
+                    <div>
+                        <img src="./assets/asset 43.svg" class="bg-[#FDC8A4] rounded-[50%] p-4"  alt="">
+                    </div>
+                    <h1 class="text-[18px] leading-[28px] font-bold">Learn Something new</h1>
+                    <p class="text-[17px] leading-[24px] font-semibold text-center text-gray-400">Learn new concepts daily, increase your productivity & reach your full potential.</p>
+                </div>
+
+                
+            </div>
+        </div>
+
+        <div class="pt-[65px] h-full bg-gradient-to-bl from-[#F1EFFF] to-white">
+            <div class="max-w-[1300px] mx-auto">
+                <div class="flex justify-between mb-5">
+                    <h1 class="text-[42px] leading-[63px] font-bold">Meet your <span class="text-[#6674cc]">Instructor</span></h1>
+                    <button class="bg-[#6674cc] p-2 px-8 text-[18px] leading-[28px] text-white rounded-md">Know more</button>
+                </div>
+                <div class="w-full h-0.5 bg-gray-500 mb-14"></div>
+                <div class="flex flex-col items-center justify-center">
+                    <img src="./assets/asset 13.png" alt="" class="mb-3">
+                    <h1 class="text-[30px] leading-[36px] font-bold">Love Babbar</h1>
+                    <p class="text-[24px] leading-[32px] text-gray-500 font-semibold">Founder, Code-Help</p>
+                </div>
+                <div class="flex justify-evenly mt-28 items-center gap-28">
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/amazon_logo.png" alt="">
+                        <h1 class="text-[20px] leading-[28px]">Ex-Amazon, SWE</h1>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/microsoft_logo_png_2398_1_6587a84ffc.png" alt="">
+                        <h1 class="text-[20px] leading-[28px]">Ex-Microsoft, SWE</h1>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <img src="./assets/google_logo.png" alt="">
+                        <h1 class="text-[20px] leading-[28px]">Google ASC, India</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="w-[50%] h-0.5 bg-gray-500 mt-28 mb-28"></div>
+        </div>
+
+        <div class="max-w-[1300px] mx-auto flex overflow-hidden justify-evenly gap-52 items-center pb-20 pt-5">
+            <div class="flex flex-col gap-5">
+                <h1 class="text-[20px] leading-[28px] text-[#6674cc] font-bold">PLACEMENTS</h1>
+                <P class="text-[44px] leading-[44.5px] font-bold">Get offers from <br> Top Companies</P>
+                <p class="text-[20px] leading-[28px] text-gray-500">Our finest get offers from top-notch companies.</p>
+            </div>
+            
+            <div class="circle">
+                <img src="./assets/asset 14.png" alt="" class="img5 bg images">
+                <img src="./assets/asset 15.png" alt="" class="img6 bg images">
+                <img src="./assets/asset 16.png" alt="" class="img7 bg images">
+                <img src="./assets/asset 17.png" alt="" class="img8 bg images">
+                <img src="assets/asset 18.png" alt="" class="img9 bg images">
+                <img src="./assets/asset 19.png" alt="" class="img10 bg images">
+                <div class="circle1">
+                    <div class="circle2">
+                        <img src="./assets/asset 20.png" alt="" class="img1 sm images">
+                        <img src="./assets/asset 21.png" alt="" class="img2 sm images">
+                        <img src="./assets/asset 22.png" alt="" class="img3 sm images">
+                        <img src="./assets/asset 23.png" alt="" class="img4 sm images">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-[#f7f8fc] pt-10">
+            <h1 class="text-[42px] leading-[63px] text-center font-bold pb-10">What would you like to <span class="text-[#6674cc]">learn?</span></h1>
+            <div class="max-w-[1300px] mx-auto grid grid-cols-3 gap-5 p-8">
+                <div class="h-[377px] flex flex-col gap-3 p-5 bg-white shadow-md rounded-md">
+                    <img src="./assets/Whats_App_Image_2022_10_01_at_1_06_44_PM_cf3d3e1c28.jpeg" alt="" class="w-[358px] h-[201px]">
+                    <h1 class="text-[24px] leading-[32px] font-bold">Cracking Object Oriented Design Interviews</h1>
+                    <div class="w-[80%] h-1 bg-gray-200"></div>
+                    <p class="flex gap-2"><span class="text-[#6674cc] text-[16px] leading-[24px] font-bold">₹555</span> <span class="text-[16px] leading-[24px] text-gray-500 font-bold"><del>₹999</del></span> <span class="text-[16px] leading-[24px] bg-[#1dd1a1] text-white font-bold p-1 px-2 rounded-md">44% off</span></p>
+                </div>
+                <div class="h-[377px] flex flex-col gap-3 p-5 bg-white shadow-md rounded-md">
+                    <img src="./assets/Web_Dev_670f900667.jpg" alt="" class="w-[358px] h-[201px]">
+                    <h1 class="text-[24px] leading-[32px] font-bold">Web Development Master Course @dot Batch</h1>
+                    <div class="w-[80%] h-1 bg-gray-200"></div>
+                    <p class="flex gap-2"><span class="text-[#6674cc] text-[16px] leading-[24px] font-bold">₹4500</span> <span class="text-[16px] leading-[24px] text-gray-500 font-bold"><del>₹6999</del></span> <span class="text-[16px] leading-[24px] bg-[#1dd1a1] text-white font-bold p-1 px-2 rounded-md">42% off</span></p>
+                </div>
+                <div class="h-[377px] flex flex-col gap-3 p-5 bg-white shadow-md rounded-md">
+                    <img src="./assets/63ac9183e4b0f1067f1b7b32_scaled_cover_daabaae21b.jpg" alt="" class="w-[358px] h-[201px]">
+                    <h1 class="text-[24px] leading-[32px] font-bold">Data Structures & Algorithms BootCamp @Supreme Batch</h1>
+                    <div class="w-[80%] h-1 bg-gray-200"></div>
+                    <p class="flex gap-2"><span class="text-[#6674cc] text-[16px] leading-[24px] font-bold">₹3500</span> <span class="text-[16px] leading-[24px] text-gray-500 font-bold"><del>₹7000</del></span> <span class="text-[16px] leading-[24px] bg-[#1dd1a1] text-white font-bold p-1 px-2 rounded-md">50% off</span></p>
+                </div>
+            </div>
+            <div class="w-[1200px] h-0.5 mx-auto bg-gray-400 mt-10"></div>
+
+            <div class="pt-10 pb-10">
+                <h1 class="text-[42px] leading-[63px] text-center font-bold pb-16">Upcoming <span class="text-[#6674cc]">Courses</span></h1>
+                <div class="max-w-[1300px] mx-auto grid grid-cols-2 gap-5 pl-36">
+                    <div class="h-[331px] w-[400px] flex flex-col gap-3 p-5 bg-white shadow-md rounded-md">
+                        <img src="./assets/63512441e4b0913195f2e72e_scaled_cover_b49e10478e.png" alt="" class="w-[358px] h-[201px]">
+                        <h1 class="text-[24px] leading-[32px] font-bold">Master Course on Recursion and Backtracking</h1>
+                    </div>
+                    <div class="h-[331px] w-[400px] flex flex-col gap-3 p-5 bg-white shadow-md rounded-md">
+                        <img src="./assets/Rectangle_1379_ef869b2e6c.png" alt="" class="w-[358px] h-[201px]">
+                        <h1 class="text-[24px] leading-[32px] font-bold">Master Course on Graph Algorithm</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="max-w-[1300px] mx-auto flex justify-between p-20">
+                <div>
+                    <h1 class="text-[20px] leading-[28px] font-bold text-[#6674cc] mb-2">WHAT STUDENT SAYS</h1>
+                    <P class="text-[42px] leading-[36px] font-bold">Recent Reviews</P>
+                </div>
+                <div class="flex gap-5">
+                    <div class="">
+                        <img src="./assets/asset 44.svg" alt="" class="bg-[#ededed] p-3 px-8 rounded-3xl">
+                    </div>
+                    <div class="">
+                        <img src="./assets/asset 45.svg" alt="" class="bg-[#6674cc] p-3 px-8 rounded-3xl">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-[1300px] mx-auto grid grid-cols-3 gap-10">
+            <div class="flex flex-col gap-10 shadow-2xl p-5 rounded-xl">
+                <div>
+                    <p class="text-gray-500 font-semibold">It is completely beginner friendly, no need of hesitation if you have no knowledge of code. From nothing to a confident coder, it is all you need. I highly recommend this to every fresher and also to someone who has even the smallest doubt.</p>
+                </div>
+                <div class="flex justify-between">
+                    <div class="flex gap-2">
+                        <img src="./assets/asset 27.jpeg" alt="" class="w-[60px] h-[60px] rounded-[50%]">
+                        <div class="flex flex-col">
+                            <h1 class="font-bold">Bhoomi Vaswani</h1>
+                            <h1 class="text-sm text-gray-400">DSA Batch</h1>  
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-star text-orange-500"></i>
+                        <i class="fa-solid fa-star text-orange-500" ></i>
+                        <i class="fa-solid fa-star text-orange-500"></i>
+                        <i class="fa-solid fa-star text-orange-500"></i>
+                        <i class="fa-solid fa-star text-orange-500"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-10 shadow-2xl p-5 rounded-xl">
+                <div>
+                    <p class="text-gray-500 font-semibold">This is the best course out there to learn recursion and backtracking concepts intuitively from scratch, Bhaiya is a wonderfully teacher and teaches from the basics, explaining every problem in detail including Leetcode Hard problems, highly recommend.</p>
+                </div>
+                <div class="flex justify-between">
+                    <div class="flex gap-2">
+                        <img src="./assets/asset 26.jpeg" alt="" class="w-[60px] h-[60px] rounded-[50%]">
+                        <div class="flex flex-col">
+                            <h1 class="font-bold">Anagh Kanungo</h1>
+                            <h1 class="text-sm text-gray-400">Recursion and Backtracking</h1>  
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-star text-orange-500"></i>
+                        <i class="fa-solid fa-star text-orange-500" ></i>
+                        <i class="fa-solid fa-star text-orange-500"></i>
+                        <i class="fa-solid fa-star text-orange-500"></i>
+                        <i class="fa-solid fa-star text-orange-500"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-col gap-20 shadow-2xl p-5 rounded-xl">
+                <div>
+                    <p class="text-gray-500 font-semibold">It was a great experience have love Babbar sir as a mentor. Thank you sir for teaching DSA concepts in a graspable manner and supporting us throughout the course.</p>
+                </div>
+                <div class="flex justify-between">
+                    <div class="flex gap-2">
+                        <img src="./assets/asset 25.jpeg" alt="" class="w-[60px] h-[60px] rounded-[50%]">
+                        <div class="flex flex-col">
+                            <h1 class="font-bold">Akhil Sharma</h1>
+                            <h1 class="text-sm text-gray-400">Interview Preparation Batch</h1>  
+                        </div>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-star text-orange-500"></i>
+                        <i class="fa-solid fa-star text-orange-500" ></i>
+                        <i class="fa-solid fa-star text-orange-500"></i>
+                        <i class="fa-solid fa-star text-orange-500"></i>
+                        <i class="fa-solid fa-star text-orange-500"></i>
                     </div>
                 </div>
             </div>
